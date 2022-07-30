@@ -1,0 +1,5 @@
+/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles/tsv2table.dir
+/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles/package_source.dir
+/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles/package.dir
