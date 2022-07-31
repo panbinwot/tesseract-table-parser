@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/tsv2table.dir/main.cpp.o CMakeFiles/tsv2table.dir/myStructs.cpp.o  -o tsv2table 
+/usr/bin/c++ CMakeFiles/tsv2table.dir/main.cpp.o -o tsv2table 

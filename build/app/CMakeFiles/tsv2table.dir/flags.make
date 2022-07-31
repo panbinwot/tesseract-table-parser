@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/include
+CXX_INCLUDES = -I/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/libs
 
 CXX_FLAGS = 
 

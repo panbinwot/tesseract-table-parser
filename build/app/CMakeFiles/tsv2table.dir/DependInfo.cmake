@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/main.cpp" "CMakeFiles/tsv2table.dir/main.cpp.o" "gcc" "CMakeFiles/tsv2table.dir/main.cpp.o.d"
+  "/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/app/main.cpp" "app/CMakeFiles/tsv2table.dir/main.cpp.o" "gcc" "app/CMakeFiles/tsv2table.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/libs/CMakeFiles/OCR_Elements.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

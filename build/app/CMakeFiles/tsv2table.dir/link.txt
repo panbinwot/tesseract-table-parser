@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tsv2table.dir/main.cpp.o -o tsv2table  ../libs/libOCR_Elements.a 

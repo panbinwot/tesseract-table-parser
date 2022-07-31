@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOCR_Elements.a CMakeFiles/OCR_Elements.dir/OCR_Elements/OCR_Elements.cpp.o
+/usr/bin/ranlib libOCR_Elements.a

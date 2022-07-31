@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/app//CMakeFiles/progress.marks
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named OCR_Elements
+# Convenience name for target.
+app/CMakeFiles/tsv2table.dir/rule:
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/tsv2table.dir/rule
+.PHONY : app/CMakeFiles/tsv2table.dir/rule
 
-# Build rule for target.
-OCR_Elements: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OCR_Elements
-.PHONY : OCR_Elements
-
-# fast build rule for target.
-OCR_Elements/fast:
-	$(MAKE) $(MAKESILENT) -f libs/CMakeFiles/OCR_Elements.dir/build.make libs/CMakeFiles/OCR_Elements.dir/build
-.PHONY : OCR_Elements/fast
-
-#=============================================================================
-# Target rules for targets named tsv2table
-
-# Build rule for target.
-tsv2table: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tsv2table
+# Convenience name for target.
+tsv2table: app/CMakeFiles/tsv2table.dir/rule
 .PHONY : tsv2table
 
 # fast build rule for target.
 tsv2table/fast:
-	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/tsv2table.dir/build.make app/CMakeFiles/tsv2table.dir/build
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/tsv2table.dir/build.make app/CMakeFiles/tsv2table.dir/build
 .PHONY : tsv2table/fast
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/tsv2table.dir/build.make app/CMakeFiles/tsv2table.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/tsv2table.dir/build.make app/CMakeFiles/tsv2table.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/tsv2table.dir/build.make app/CMakeFiles/tsv2table.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -150,8 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... OCR_Elements"
 	@echo "... tsv2table"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

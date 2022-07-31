@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/main.cpp" "CMakeFiles/tsv2table.dir/main.cpp.o" "gcc" "CMakeFiles/tsv2table.dir/main.cpp.o.d"
+  "/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/libs/OCR_Elements/OCR_Elements.cpp" "libs/CMakeFiles/OCR_Elements.dir/OCR_Elements/OCR_Elements.cpp.o" "gcc" "libs/CMakeFiles/OCR_Elements.dir/OCR_Elements/OCR_Elements.cpp.o.d"
   )
 
 # Targets to which this target links.
