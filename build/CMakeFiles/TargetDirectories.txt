@@ -1,8 +1,0 @@
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/libs/CMakeFiles/OCR_Elements.dir
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/libs/CMakeFiles/edit_cache.dir
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/libs/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/app/CMakeFiles/tsv2table.dir
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/app/CMakeFiles/edit_cache.dir
-/mnt/c/Users/pb061/Desktop/cpp/projects/tsv2table/build/app/CMakeFiles/rebuild_cache.dir
